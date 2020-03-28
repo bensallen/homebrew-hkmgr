@@ -2,12 +2,12 @@
 class Hkmgr < Formula
   desc "Hkmgr is a virtual machine manager for the hyperkit macOS hypervisor."
   homepage "https://github.com/bensallen/hkmgr"
-  version "0.1.1"
+  version "0.1.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/bensallen/hkmgr/releases/download/v0.1.1/hkmgr_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "d3d6b8f011bf2ba9da6ae46f7e0a6d8a57d3f48febb65b4ec675281d61145a7a"
+    url "https://github.com/bensallen/hkmgr/releases/download/v0.1.2/hkmgr_0.1.2_Darwin_x86_64.tar.gz"
+    sha256 "f16a548346ae64b70314dc6e276df4d5619733d1a689851566b2c04a2190eced"
   elsif OS.linux?
   end
   
